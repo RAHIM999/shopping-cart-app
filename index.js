@@ -22,6 +22,7 @@ addButtonEl.addEventListener("click", function() {
          push(shoppingListInDB, inputValue)
     clearInputFieldEl()
     }
+    
 })
 
 onValue(shoppingListInDB, function(snapshot) {
