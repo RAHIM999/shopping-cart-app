@@ -16,7 +16,7 @@ const shoppingListEl = document.getElementById("shopping-list")
 addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
     if(inputValue.length==0){
-     window.alert("Please, Write something in input field 😊")
+     window.alert("Fill input area to add to cart 😊")
     }
     else{
          push(shoppingListInDB, inputValue)
